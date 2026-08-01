@@ -19,3 +19,27 @@ let myFunction = function() {
 }
 
 // Non Primitive datatypes are object
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) & Heap (Non-Primitive)
+
+let myYtChannel = "manishyadavdotcom"
+let anotherNamee = myYtChannel
+myYtChannel = "chai aur code" 
+
+console.log(myYtChannel);
+console.log(anotherNamee);
+
+let userOne = {
+    email : "user@google.com",
+    upi : "user@ybl",
+}
+
+let userTwo = userOne;
+
+userTwo.email = "manish@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
